@@ -7,8 +7,11 @@ import store from './store/index.js'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
 Vue.config.productionTip = false
 Vue.use(ElementUI)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 /* eslint-disable no-new */
 new Vue({

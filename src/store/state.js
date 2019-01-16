@@ -2,6 +2,7 @@ export const state = {
   todos: [],
   todo: {
     title: '',
-    comments: ''
+    content: '',
+    checked: false
   }
 }
